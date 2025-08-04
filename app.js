@@ -24,7 +24,7 @@ function añadirAmigo() { //Creamos la funcion del boton, lo cual activara todas
 }
 
 function mostrarAmigos() {   //Creamos la funcion
-    let lista = document.getElementById('listaAmigos');   // Creamos una variable para definir en que parte del HTML vamos a mostrar los nombres, en este caso en <ul> (Unordered List)
+    let lista = document.getElementById('listaAmigos');   // Creamos una variable para definir en que parte del HTML vamos a mostrar los nombres, en este caso en <ul>"listaAmigos" (Unordered List), esto se obtuvo por el id
     lista.innerHTML = "";  // Borramos lo que esta en la lista antes de agregar nuevos <li> esto va a evitar que haya duplicados cuando se actualice la lista
    // nombresAgregados.forEach((item)=>{  //encontre primero como hacer funcionar el .forEach pero no supe como desarrollarlo
      //   console.log(item)
@@ -39,10 +39,22 @@ function mostrarAmigos() {   //Creamos la funcion
     }
 
 }
-      
+
+function sortearAmigo() {   //Creamos la funcion
+    if (nombresAgregados.length === 0){  // Condicionamos a que al menos tenga 1 nombre ingresado
+        alert ('Agrega por lo menos a 1 amigo');
+        return;
+    }
+    let numeroAleatorio = Math.floor(Math.random()*nombresAgregados.length);   // Establecemos que vamos a generar un numero aleatorio que puede ser tan largo como la cantidad de items en nuestro array, tuve que quitar el +1 ya que de lo contario no toma en cuenta al primer (0) item de nuestro array
+    let amigoElegido = nombresAgregados[numeroAleatorio];   // Establecemos una variable que va a tomar el numero generado anteriormente y lo va a relacionar con el item correspondiente a nuestro array
+    let resultado = document.getElementById('resultado');   // Creamos una variable para definir en que parte del HTML vamos a mostrar los nombres, en este caso en <ul>"resultado", esto se obtuvo por el id
+    resultado.innerHTML = `<li>${amigoElegido} es el amigo secreto</li>`;   //Con esto borramos lo que hubiera anteriormente en el HTML y lo repmplazamos con lo que pusimos entre los acentos invertidos, que es el resultado de la variable que escogio pseudoaleatoriamente y relaciono el nombre del amigo
+    return;
+}
+ 
  
 
-function limpiarCaja() {
+function limpiarCaja() {   // Esta fujncion vacia la caja
     document.querySelector('#amigo').value = "";
     return;
 }
