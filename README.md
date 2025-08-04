@@ -83,4 +83,19 @@ Se agregan anotaciones en todo el codigo explicando que hace, esto para no llena
 * No puedo creer que tarde 5 horas en aumentar 7 lineas mi codigo
 
 
+## Cuarta version
+
+Integramos la ultima funcion al codigo la cual nos permite seleccionar a un nombre ingresado en el input y mostrarlo como el amigo secreto en pantalla
+
+<img width="851" height="906" alt="Image" src="https://github.com/user-attachments/assets/506839d7-e804-4a9c-9fd0-a263aa75f75f" />
+
+La unica correccion seria fue tener que quitar el +1 en la variable que sortea el numero pseudoaleatorio ya que el array asigna el primer item como 0 y el +1 nos impide sacar 0 por ende si solo habia un 
+amigo en la lista se creaba un error y si habia mas el primer nombre en la lista nunca se seleccionaba como el amigo secreto
+
+<img width="1077" height="264" alt="Image" src="https://github.com/user-attachments/assets/9e03959f-31e6-4073-93ba-59749476b717" />
+
+
+*Como nota final solo queda decir que para lograr crear este challenge se tienen que investigar varias cosas que en el curso no nos enseñan lo que va a ser un parteaguas para aquellos compañeros que no 
+saben o no quieren buscar continuamente nueva informacion, de mi parte ya solo queda subir el trabajo a la plataforma.
+
 
