@@ -62,3 +62,25 @@ Muestra de 4 nombres añadidos.
 
 
 <img width="703" height="209" alt="Image" src="https://github.com/user-attachments/assets/42c1f6f6-c33b-4a5f-a65d-c28ee1a60b5e" /> Mensaje si duplican algun nombre
+
+
+## Tercera version
+
+Se integra la funcion de mostrar en el navegador la lista de los nombres que se han ingresado en el input
+
+
+<img width="741" height="409" alt="Image" src="https://github.com/user-attachments/assets/aebc87e7-44a0-4f3b-9ebe-bb105f1166de" />
+
+
+<img width="765" height="503" alt="Image" src="https://github.com/user-attachments/assets/6b5b6bbf-bbfc-4f25-865d-bd20078813d5" />
+
+
+
+Se agregan anotaciones en todo el codigo explicando que hace, esto para no llenar el README.md con imagenes que de igual forma explico.
+
+<img width="1108" height="939" alt="Image" src="https://github.com/user-attachments/assets/ff6b1122-8631-4df4-b8e9-ca53dd2e85df" />
+
+* No puedo creer que tarde 5 horas en aumentar 7 lineas mi codigo
+
+
+
