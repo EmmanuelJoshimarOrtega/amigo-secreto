@@ -39,10 +39,8 @@ function mostrarAmigos() {   //Creamos la funcion
     }
 
 }
-
-
-        
-    
+      
+ 
 
 function limpiarCaja() {
     document.querySelector('#amigo').value = "";
